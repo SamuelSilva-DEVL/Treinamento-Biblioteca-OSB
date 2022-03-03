@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px auto;
+  margin-top: 100px;
+  color: black;
+  gap: 10px;
+}
+
+.container form {
+  display: flex;
+  align-items: center;
+  color: rgb(53, 86, 233);
+  font-size: 35px;
+}
+
+.container input {
+  font-size: 30px;
+  border: solid 3px rgb(53, 86, 233);
+  border-radius: 3px;
+}
+
+.container input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.iconePesquisa {
+  font-size: 55px;
+  cursor: pointer;
+  color: rgb(53, 86, 233);
+  border: none;
+  background-color: #fff;
+}
+
+.informacoes {
+  width: 900px;
+  height: 120px;
+  background-color: rgb(53, 86, 233);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.links {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-left: 5px;
+}
